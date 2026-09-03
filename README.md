@@ -1,123 +1,124 @@
-# 💡 Lampzi — The LaTeX Resume Architect
+# Lampzi — Free LaTeX Resume Templates & No-Code Builder
 
 <div align="center">
 
-![Lampzi Banner](./hero-section-lampzi.png)
+![Lampzi — LaTeX resume templates and no-code builder](./hero-section-lampzi.png)
 
-**The precision of LaTeX meets the simplicity of no-code. Built for the 6-second recruiter scan.**
+**LaTeX-quality resumes and CVs, without writing a line of LaTeX. Structured for the 6-second recruiter scan and built to pass ATS.**
 
-[![Live Demo](https://img.shields.io/badge/🌐_Live_Demo-lampzi.com-66a181?style=for-the-badge)](https://lampzi.com/)
-[![GitHub Stars](https://img.shields.io/github/stars/lampzi/latex-resume-builder?style=for-the-badge&color=ffd700)](https://github.com/lampzi/latex-resume-builder)
-[![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)](LICENSE)
+[![Live Demo](https://img.shields.io/badge/Live_Site-lampzi.com-66a181?style=for-the-badge)](https://lampzi.com/)
+[![Templates](https://img.shields.io/badge/Browse-Templates-345241?style=for-the-badge)](https://lampzi.github.io/latex-resume-builder/#templates)
+[![Star this repo](https://img.shields.io/github/stars/lampzi/latex-resume-builder?style=for-the-badge&color=ffd700)](https://github.com/lampzi/latex-resume-builder)
 
-[Features](#-key-features) • [Why Lampzi](#-the-lampzi-standard) • [Templates](#-recruiter-validated-templates) • [Comparison](#-lampzi-vs-the-world) • [Tech Stack](#-tech-stack)
+[Templates](#latex-resume--cv-templates) • [Why LaTeX](#why-a-latex-resume) • [vs Overleaf](#lampzi-vs-overleaf-vs-word) • [FAQ](#faq)
 
 </div>
 
 ---
 
-## 🎯 What is Lampzi?
+## About this repository
 
-[Lampzi](https://lampzi.com) is a professional [LaTeX resume builder](https://lampzi.com) designed for job seekers who value structure, clarity, and technical precision. 
+This repo hosts the **open showcase page** for [Lampzi](https://lampzi.com), a no-code LaTeX resume builder — a gallery of ATS-friendly LaTeX resume and CV templates with a live preview site at **[lampzi.github.io/latex-resume-builder](https://lampzi.github.io/latex-resume-builder/)**.
 
-Most resume builders focus on "pretty" designs that break when you edit them or fail when scanned by an **Applicant Tracking System (ATS)**. Lampzi treats resume building as **document engineering**. By leveraging the mathematical spacing of LaTeX, we ensure your resume is typographically perfect and 100% readable by both bots and humans.
-
-### 🔥 Perfect For:
-- 👨‍💻 **Tech Professionals** – Showcase complex projects and skill stacks with clean hierarchy.
-- 🎓 **Students & New Grads** – Turn academic achievements into professional narratives.
-- 💼 **Active Job Seekers** – Optimized for the "6-second scan" to get you more interviews.
-- 🔬 **PhD & Researchers** – Handle heavy content without sacrificing whitespace.
+The resume builder itself (the LaTeX compilation pipeline, the form editor, template rendering) runs at **[lampzi.com](https://lampzi.com)**. This page exists to browse the templates and understand the approach before you build.
 
 ---
 
-## ✨ Key Features
+## What is a LaTeX resume?
 
-### 📐 **LaTeX-Powered Precision**
-No more fighting with Word margins or CSS grid bugs. Lampzi uses LaTeX behind the scenes to ensure impeccable alignment and consistent mathematical spacing.
+A **LaTeX resume** is typeset rather than laid out by hand. Instead of nudging text boxes around a page, LaTeX applies the same mathematical spacing rules used for academic papers — so margins, dates and bullet points align consistently, and the typography reads as considered rather than improvised.
 
-### 🤖 **ATS-First Architecture**
-Our templates are built with structured data. While other builders produce "flat" PDFs, Lampzi generates clean, parsable documents that score **90-99% on ATS scanners** like Workday, Greenhouse, and Lever.
+It also helps with a problem most people never see. **Applicant Tracking Systems (ATS)** read the raw text of a PDF before a recruiter does, and design-first tools often export text as images or multi-column tables that parsers scramble. A single-column LaTeX resume outputs clean, searchable text, so it tends to survive automated screening intact.
 
-### ⚡ **No-Code Interface**
-Get the "Overleaf look" without writing a single line of code. Edit your details through an intuitive form and see your professional PDF update in real-time.
+The traditional cost of LaTeX was learning it. Lampzi removes that: you pick a template, fill in a form, and the LaTeX is compiled for you into a downloadable PDF — the output of LaTeX without the syntax.
 
-### 📱 **Mobile-Optimized Editing**
-The only LaTeX-based editor that works seamlessly on your phone. Refine your bullets or swap a template while on the go.
+### Who it's for
 
-### 🎯 **Smart Section Management**
-- **Drag-and-Drop Reordering:** Change your resume flow in seconds.
-- **Custom Sections:** Add "Open Source," "Certifications," or "Volunteering" with one click.
-- **Rename & Hide:** Complete control over your document's headers.
+- **Software engineers & tech professionals** — clean hierarchy for projects and skill stacks
+- **Students & new grads** — turn academic work into a professional narrative
+- **Researchers & PhDs** — longer academic CVs with publications, coursework and references
+- **Active job seekers** — a layout structured for the recruiter's first scan
 
 ---
 
-## 🏆 The Lampzi Standard
+## Why a LaTeX resume
 
-Recruiters spend an average of **6 seconds** on an initial screen. If your resume is cluttered, they move on. 
-
-We follow a "Structure-First" philosophy:
-1. **Mathematical Whitespace:** Guiding the eye to your most important achievements.
-2. **Typographical Hierarchy:** Consistent font weights that make your titles pop.
-3. **Outcome-Focused Layouts:** Designed to highlight *impact*, not just tasks.
-
-[**Build your best resume today at lampzi.com →**](https://lampzi.com)
+- **No code, no Overleaf.** Get the structured LaTeX look without editing markup or debugging compiler errors. Fill a guided form; the compiler is hosted for you.
+- **Built to pass ATS.** LaTeX compiles genuine, searchable text rather than the vector shapes graphic tools export — which is what typically causes automated rejections in systems like Workday, Greenhouse and Lever.
+- **Mathematically consistent spacing.** Headings, timelines and bullet lists align without the formatting drift you get in a word processor.
+- **Resume or academic CV.** The same editor builds a one-page resume or a longer CV — add publications, coursework and references and LaTeX typesets them cleanly.
+- **Reorder in seconds.** Drag-and-drop section management: reorder, rename or hide sections so the layout matches your story.
 
 ---
 
-## 📋 Recruiter-Validated Templates
+## LaTeX Resume & CV Templates
+
+Free, ATS-friendly LaTeX templates, each built for a different kind of role. Browse them live at **[lampzi.github.io/latex-resume-builder/#templates](https://lampzi.github.io/latex-resume-builder/#templates)**.
 
 <div align="center">
 
-| Template Style | Best For | Focus |
+| Template | Best for | Focus |
 |:--- |:--- |:--- |
-| **The Minimalist** | Software Engineers / Data Science | Clean lines, high density |
-| **The Executive** | Management / MBA | Leadership & Impact focus |
-| **The Academic** | Researchers / PhDs | Publication & Project heavy |
-| **The Modern** | Career Changers | Hybrid skills & experience |
+| **Simple and Elegant** | Software engineers, data science | Clean lines, high text density |
+| **Sophisticated** | Designers, creative roles | Balanced margins, clear headings |
+| **Neat and Professional** | Software engineer resumes | Technical skills and projects |
+| **Executive and Professional** | Management, MBA | Leadership timelines and impact |
+| **Modern and Clean** | Career changers, all industries | Versatile hybrid layout |
+| **Academic CV** | Researchers, PhDs | Publications, teaching, coursework |
 
 </div>
-
----
-
-## 📸 Screenshots
 
 <div align="center">
-  <img src="./lampzi-resume-builder-form.png" width="45%" alt="Lampzi Editor Interface" />
-  <img src="./lampzi-template-selection.png" width="45%" alt="Lampzi Template Gallery" />
+  <img src="./lampzi-resume-builder-form.png" width="45%" alt="Lampzi no-code LaTeX resume builder form editor" />
+  <img src="./lampzi-template-selection.png" width="45%" alt="Lampzi LaTeX resume template gallery" />
 </div>
 
 ---
 
-## 🌟 Lampzi vs. The World
+## Lampzi vs Overleaf vs Word
 
-| Feature | Lampzi | Canva/Word | Overleaf |
+| Feature | Lampzi (No-Code LaTeX) | Canva / Word | Overleaf (Raw LaTeX) |
 | :--- | :---: | :---: | :---: |
-| **ATS Compatibility** | ✅ 99% | ❌ Low | ✅ High |
-| **Zero-Code Required** | ✅ Yes | ✅ Yes | ❌ No |
-| **Layout Stability** | ✅ Never Breaks | ❌ Constant Fighting | ✅ Solid |
-| **Professional Typography** | ✅ LaTeX Grade | ❌ Standard | ✅ LaTeX Grade |
-| **Mobile Friendly** | ✅ Yes | ✅ Yes | ❌ No |
+| **ATS-safe text parsing** | ✅ Clean, searchable | ❌ Fonts/tables break | ✅ Clean, searchable |
+| **No code required** | ✅ Yes | ✅ Yes | ❌ No |
+| **Layout stability** | ✅ Never shifts | ❌ Formatting drifts | ✅ Solid |
+| **LaTeX-grade typography** | ✅ Yes | ❌ Desktop fonts | ✅ Yes |
+| **Mobile-friendly editing** | ✅ Yes | ✅ Yes | ❌ No |
+
+Prefer editing raw LaTeX yourself? Overleaf is the better tool for full manual control — see the honest comparison: [Overleaf vs Lampzi](https://lampzi.com/blogs/overleaf-vs-lampzi).
 
 ---
 
-## 🔗 Quick Links & Resources
+## FAQ
 
-- 🌐 **Official Website:** [lampzi.com](https://lampzi.com)
-- 📝 **Resume Templates:** [Browse ATS Templates](https://lampzi.com/templates)
-- 📚 **Career Blog:** [Resume Writing Guides](https://lampzi.com/blogs)
-- 💡 **Resume tips:** [Resume Golden Tips](https://lampzi.com/tips)
+**Are the templates free?**
+Yes — browse every template for free and start building at no cost on [lampzi.com](https://lampzi.com).
+
+**Do I need to know LaTeX or use Overleaf?**
+No. The compiler is hosted for you. There's nothing to install and no code to write — you fill out a form and get a LaTeX PDF.
+
+**Can I use these for an academic CV?**
+Yes. The Academic template handles longer CVs with publications, coursework and references. A CV and a resume use the same editor; the CV just adds more sections.
+
+**How does a LaTeX resume stay ATS-friendly?**
+ATS parsers read plain text. A single-column LaTeX resume compiles genuine searchable text rather than the images or complex tables that cause parsing failures.
 
 ---
 
-## 📈 SEO Keywords
-`resume builder`, `latex resume`, `ats friendly resume`, `professional resume maker`, `cv builder`, `no-code latex`, `software engineer resume`, `academic cv template`, `best latex resume builder 2026`, `no code latex resume builder`, `overleaf alternative`, `job application tools`.
+## Links
+
+- **Resume builder:** [lampzi.com](https://lampzi.com)
+- **All templates:** [lampzi.com/templates](https://lampzi.com/templates)
+- **Career blog:** [lampzi.com/blogs](https://lampzi.com/blogs)
+- **Resume tips:** [lampzi.com/tips](https://lampzi.com/tips)
+- **Is LaTeX good for resumes?** [Guide](https://lampzi.com/blogs/is-latex-good-for-resumes)
 
 ---
 
 <div align="center">
 
-**Built with ❤️ for the ambitious professional.**
+Build a LaTeX-quality resume without writing LaTeX.
 
-[Get Started for Free](https://lampzi.com/) • [Star this Repo](https://github.com/lampzi/latex-resume-builder)
+[**Get started free at lampzi.com →**](https://lampzi.com/) • [Star this repo](https://github.com/lampzi/latex-resume-builder)
 
 </div>
