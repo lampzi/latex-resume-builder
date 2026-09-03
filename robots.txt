@@ -1,0 +1,14 @@
+# Lampzi — LaTeX Resume Templates (GitHub Pages)
+User-agent: *
+Allow: /
+
+User-agent: GPTBot
+Allow: /
+User-agent: Google-Extended
+Allow: /
+User-agent: ClaudeBot
+Allow: /
+User-agent: PerplexityBot
+Allow: /
+
+Sitemap: https://lampzi.github.io/latex-resume-builder/sitemap.xml
